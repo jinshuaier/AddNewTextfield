@@ -15,6 +15,7 @@
 		B925D5FD1F6FA77300A3948A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B925D5FB1F6FA77300A3948A /* LaunchScreen.storyboard */; };
 		B925D6081F6FA77300A3948A /* AddNewTextfieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B925D6071F6FA77300A3948A /* AddNewTextfieldTests.m */; };
 		B925D6131F6FA77300A3948A /* AddNewTextfieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B925D6121F6FA77300A3948A /* AddNewTextfieldUITests.m */; };
+		B925D6231F6FA7DD00A3948A /* HggButtonAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = B925D6221F6FA7DD00A3948A /* HggButtonAddView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B925D60E1F6FA77300A3948A /* AddNewTextfieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddNewTextfieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B925D6121F6FA77300A3948A /* AddNewTextfieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddNewTextfieldUITests.m; sourceTree = "<group>"; };
 		B925D6141F6FA77300A3948A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B925D6211F6FA7DD00A3948A /* HggButtonAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HggButtonAddView.h; sourceTree = "<group>"; };
+		B925D6221F6FA7DD00A3948A /* HggButtonAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HggButtonAddView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		B925D5EC1F6FA77300A3948A /* AddNewTextfield */ = {
 			isa = PBXGroup;
 			children = (
+				B925D6201F6FA7C200A3948A /* View */,
 				B925D5F01F6FA77300A3948A /* AppDelegate.h */,
 				B925D5F11F6FA77300A3948A /* AppDelegate.m */,
 				B925D5F31F6FA77300A3948A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				B925D6141F6FA77300A3948A /* Info.plist */,
 			);
 			path = AddNewTextfieldUITests;
+			sourceTree = "<group>";
+		};
+		B925D6201F6FA7C200A3948A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B925D6211F6FA7DD00A3948A /* HggButtonAddView.h */,
+				B925D6221F6FA7DD00A3948A /* HggButtonAddView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 				B925D5F51F6FA77300A3948A /* ViewController.m in Sources */,
 				B925D5F21F6FA77300A3948A /* AppDelegate.m in Sources */,
 				B925D5EF1F6FA77300A3948A /* main.m in Sources */,
+				B925D6231F6FA7DD00A3948A /* HggButtonAddView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
